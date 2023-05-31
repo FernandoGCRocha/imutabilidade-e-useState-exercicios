@@ -8,6 +8,10 @@ export const Card = styled.div`
   text-align: center;
   border-radius: 10px;
   box-shadow: 10px 10px 30px #bdbdbd;
+  max-height: 400px;
+  img{
+    max-width: 215px;
+  } 
 `;
 
 export const PokemonName = styled.h2`
